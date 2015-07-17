@@ -1,0 +1,15 @@
+Source: leap-mail
+Priority: optional
+Maintainer: Pixelated Team <team@pixelated-project.org>
+Build-Depends: python-setuptools (>= 0.6b3), python-all (>= 2.6.6-3), debhelper (>= 7.4.3), dh-python
+Homepage: http://pixelated-project.org
+Vcs-Git: https://github.com/pixelated-project/leap_mail.git
+Vcs-Browser: https://github.com/pixelated-project/leap_mail
+X-Python-Version: >= 2.7
+Standards-Version: 3.9.1
+
+Package: leap-mail
+Architecture: all
+Depends: python (>= 2.7), python (<< 2.8), python-zope.interface, python-zope.proxy, python-twisted, python-service-identity, leap-keymanager (>= 0.4.0), soledad-client (>= 0.7.0), python-leap-common (>= 0.4.0)
+Description: Bitmask mail module
+ Bitmask mail module
